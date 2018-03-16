@@ -1,0 +1,40 @@
+package reaktor;
+import java.awt.event.*;
+import javax.swing.*;
+public class App4{
+
+	public static void main(String[] args) {
+		
+		
+		
+		JFrame okno = new JFrame("App");
+		JCheckBox checkbox = new JCheckBox("Java");
+		 
+		// add to a container
+		okno.add(checkbox);
+		 
+		// set state
+		checkbox.setSelected(true);
+		 
+		// check state
+		if (checkbox.isSelected()) {
+		 
+		    // do something...
+		 
+		} else {
+		 
+		    // do something else...
+		 
+		}
+		JCheckBox checkbox2 = new JCheckBox("Python");
+		 
+		// add to a container
+		okno.add(checkbox2);
+		 
+		// set state
+		checkbox2.setSelected(true);
+		 
+		// check state
+		if (checkbox2.isSelected()) {
+		 
+		    // do something...
